@@ -1,0 +1,8 @@
+pnpm-lock.yaml
+**/dist
+**/.next
+**/drizzle/meta
+packages/core/src/**/*.data.ts
+packages/core/src/engine/data
+packages/core/test/fixtures-golden.json
+apps/web/src/app/globals.css

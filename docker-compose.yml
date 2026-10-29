@@ -1,0 +1,118 @@
+# Stamped: PostgreSQL + NestJS API + Next.js web.
+#   docker compose up -d --build                       start the site on http://localhost:3000
+#   docker compose --profile test run --rm --build test   run every test against the running stack
+# Settings come from .env (copy .env.example); the defaults below work for local use.
+name: stamped
+
+x-hardening: &hardening
+  init: true
+  restart: unless-stopped
+  security_opt: ['no-new-privileges:true']
+  cap_drop: [ALL]
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-stamped}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-stamped}
+      POSTGRES_DB: ${POSTGRES_DB:-stamped}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - '127.0.0.1:${DB_PORT:-5432}:5432'
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  # One-off job: apply migrations, then load the entry-rule data set if this release's version is missing.
+  migrate:
+    build: &api-build
+      context: .
+      target: api
+    image: stamped-api:${TAG:-local}
+    command: ['node', 'dist/cli/run.js', 'prepare']
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER:-stamped}:${POSTGRES_PASSWORD:-stamped}@db:5432/${POSTGRES_DB:-stamped}
+      SEED_MODE: ${SEED_MODE:-if-stale}
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: 'no'
+    init: true
+    security_opt: ['no-new-privileges:true']
+    cap_drop: [ALL]
+
+  api:
+    <<: *hardening
+    build: *api-build
+    image: stamped-api:${TAG:-local}
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgres://${POSTGRES_USER:-stamped}:${POSTGRES_PASSWORD:-stamped}@db:5432/${POSTGRES_DB:-stamped}
+      DATABASE_POOL_MAX: ${DATABASE_POOL_MAX:-10}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      INTERNAL_API_TOKEN: ${INTERNAL_API_TOKEN:-local-dev-internal-token}
+      THROTTLE_LIMIT: ${THROTTLE_LIMIT:-300}
+      SWAGGER_ENABLED: ${SWAGGER_ENABLED:-true}
+      LOG_LEVEL: ${LOG_LEVEL:-log}
+    ports:
+      - '${API_PORT:-4000}:4000'
+    healthcheck:
+      test: ['CMD-SHELL', 'wget -qO- http://127.0.0.1:4000/api/health >/dev/null || exit 1']
+      interval: 10s
+      timeout: 5s
+      start_period: 15s
+      retries: 10
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+
+  web:
+    <<: *hardening
+    build:
+      context: .
+      target: web
+      args:
+        SITE_URL: ${SITE_URL:-http://localhost:3000}
+    image: stamped-web:${TAG:-local}
+    environment:
+      API_URL: http://api:4000
+      INTERNAL_API_TOKEN: ${INTERNAL_API_TOKEN:-local-dev-internal-token}
+      SITE_URL: ${SITE_URL:-http://localhost:3000}
+    ports:
+      - '${WEB_PORT:-3000}:3000'
+    healthcheck:
+      test: ['CMD-SHELL', 'wget -qO- http://127.0.0.1:3000/api/health >/dev/null || exit 1']
+      interval: 10s
+      timeout: 5s
+      start_period: 15s
+      retries: 10
+    depends_on:
+      api:
+        condition: service_healthy
+
+  # Lint, typecheck, unit tests, API e2e (PostgreSQL) and Playwright e2e (desktop + mobile) against the stack above.
+  test:
+    profiles: [test]
+    build:
+      context: .
+      target: test
+    image: stamped-test:${TAG:-local}
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER:-stamped}:${POSTGRES_PASSWORD:-stamped}@db:5432/${POSTGRES_DB:-stamped}
+      E2E_BASE_URL: http://web:3000
+    volumes:
+      - ./test-results/playwright-report:/repo/apps/web/playwright-report
+    shm_size: '1gb'
+    depends_on:
+      web:
+        condition: service_healthy
+
+volumes:
+  pgdata:

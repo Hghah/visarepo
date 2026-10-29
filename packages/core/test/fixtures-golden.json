@@ -1,0 +1,6028 @@
+{
+"AF>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AG>SB": {
+"type": "voa",
+"days": null,
+"fee": "Varies",
+"note": "You get the visa when you land. Fees and the length of stay vary, so carry cash in a major currency and a ticket out.",
+"stamp": [
+"On arrival",
+"At border"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AG>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AL>KH": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Both routes give 30 days and cost the same. The e-visa saves the queue; the arrival visa works at more land borders.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 in cash",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$30",
+"https://www.evisa.gov.kh"
+]
+]
+},
+"AM>OM": {
+"type": "free",
+"days": 14,
+"fee": "Free",
+"note": "Visa-free for up to 14 days for tourism.",
+"stamp": [
+"Visa-free",
+"14 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AO>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"AO>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AR>FI": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AR>TJ": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Heading to the Pamirs? Add the GBAO permit to your e-visa application.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"e-Visa",
+60,
+"US$30 single, US$50 multiple entry",
+"https://www.evisa.tj"
+]
+]
+},
+"AT>ST": {
+"type": "free",
+"days": 15,
+"fee": "Free",
+"note": "Visa-free for up to 15 days for tourism.",
+"stamp": [
+"Visa-free",
+"15 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AU>SE": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AZ>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"AZ>EG": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Since March 2026 the e-visa is US$5 cheaper than the arrival visa.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 single, US$60 multiple entry (since 1 Mar 2026)",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$25 single, US$60 multiple entry",
+"https://visa2egypt.gov.eg"
+]
+]
+},
+"AZ>GA": {
+"type": "evisa",
+"days": 90,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AZ>ID": {
+"type": "voa",
+"days": 30,
+"fee": "IDR 500K",
+"note": "The e-VOA and the airport visa on arrival are the same visa: 30 days, extendable once by 30 days in person. For up to 180 days, take the C1 tourist e-visa instead.",
+"stamp": [
+"On arrival",
+"30 days",
+"IDR 500K"
+],
+"ext": 30,
+"apply": {
+"label": "Get the e-VOA",
+"url": "https://evisa.imigrasi.go.id"
+},
+"opts": [
+[
+"voa",
+"e-VOA, bought online",
+30,
+"IDR 500,000",
+"https://evisa.imigrasi.go.id"
+],
+[
+"voa",
+"Visa on arrival at the counter",
+30,
+"IDR 500,000",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"AZ>NG": {
+"type": "evisa",
+"days": 30,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"AZ>PH": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "This passport is not on the visa-free list, so you need a visa before travel. Apply at a Philippine embassy or consulate. If you live in an e-visa country (Austria, France, Greece, India, Indonesia, Japan, Kenya, the Netherlands, Nigeria, Singapore, South Korea or the UAE), you can apply online at evisa.gov.ph.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": {
+"label": "Philippine e-visa portal",
+"url": "https://evisa.gov.ph"
+},
+"opts": []
+},
+"AZ>TH": {
+"type": "voa",
+"days": 15,
+"fee": "2,000 THB",
+"note": "Apply at the Visa on Arrival counter when you land and pay about 2,000 THB. Bring a passport photo, a ticket out within 15 days and your accommodation details. Staying longer? Get the 60-day tourist e-visa before you fly.",
+"stamp": [
+"On arrival",
+"15 days",
+"2,000 THB"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+15,
+"2,000 THB",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"AZ>VN": {
+"type": "evisa",
+"days": 90,
+"fee": "US$25",
+"note": "Every nationality can use the e-visa. US$25 covers a single entry and US$50 a multiple entry, each for up to 90 days. Use only evisa.gov.vn. Look-alike sites add their own service fees.",
+"stamp": [
+"e-Visa",
+"90 days",
+"US$25"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.vn",
+"url": "https://evisa.gov.vn"
+},
+"opts": []
+},
+"AZ>ZA": {
+"type": "eta",
+"days": null,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BA>BN": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BA>RU": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Visa-free for up to 30 days for tourism.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BA>TZ": {
+"type": "voa",
+"days": 90,
+"fee": "US$50",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"90 days",
+"US$50"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"Same fee, in US dollar cash",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"US$50; US passports US$100 (1-year multiple entry)",
+"https://visa.immigration.go.tz"
+]
+]
+},
+"BB>JM": {
+"type": "free",
+"days": null,
+"fee": "Free",
+"note": "No visa is needed, and no fixed day limit is listed, as with free-movement areas.",
+"stamp": [
+"Visa-free",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BF>MM": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BF>SC": {
+"type": "eta",
+"days": 90,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BF>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BH>MA": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BH>SL": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"BI>MA": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BI>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BJ>DJ": {
+"type": "evisa",
+"days": 90,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BJ>OM": {
+"type": "evisa",
+"days": 30,
+"fee": "About OMR 20",
+"note": "Staying longer than 14 days? Get the 30-day e-visa before you fly.",
+"stamp": [
+"e-Visa",
+"30 days",
+"About OMR 20"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.rop.gov.om",
+"url": "https://evisa.rop.gov.om"
+},
+"opts": []
+},
+"BJ>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BR>ID": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "This passport gets 30 days visa-free. The stay cannot be extended or converted to another visa. Staying longer? Get the 60-day C1 tourist e-visa before you fly.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"BR>MD": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BR>PH": {
+"type": "free",
+"days": 59,
+"fee": "Free",
+"note": "A bilateral agreement gives this passport 59 days visa-free for tourism.",
+"stamp": [
+"Visa-free",
+"59 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BR>TH": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "A two-way agreement gives this passport 90 days, unchanged by the 2026 reform. The stay is for tourism only.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 30,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+90,
+"Free",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"BR>VN": {
+"type": "evisa",
+"days": 90,
+"fee": "US$25",
+"note": "Every nationality can use the e-visa. US$25 covers a single entry and US$50 a multiple entry, each for up to 90 days. Use only evisa.gov.vn. Look-alike sites add their own service fees.",
+"stamp": [
+"e-Visa",
+"90 days",
+"US$25"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.vn",
+"url": "https://evisa.gov.vn"
+},
+"opts": []
+},
+"BS>SL": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"BT>CL": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BT>MW": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"BY>AF": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"BY>KH": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Both routes give 30 days and cost the same. The e-visa saves the queue; the arrival visa works at more land borders.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 in cash",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$30",
+"https://www.evisa.gov.kh"
+]
+]
+},
+"BY>MM": {
+"type": "evisa",
+"days": 28,
+"fee": "US$50",
+"note": "Check your government's travel advice before visiting Myanmar.",
+"stamp": [
+"e-Visa",
+"28 days",
+"US$50"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.moip.gov.mm",
+"url": "https://evisa.moip.gov.mm"
+},
+"opts": []
+},
+"CA>MZ": {
+"type": "eta",
+"days": 30,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CA>ZW": {
+"type": "voa",
+"days": 30,
+"fee": "From US$30",
+"note": "The KAZA UniVisa (US$50) covers Zimbabwe and Zambia for 30 days.",
+"stamp": [
+"On arrival",
+"30 days",
+"From US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Same as the e-visa",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"From US$30 single entry; UK and Irish passports US$55",
+"https://www.evisa.gov.zw"
+]
+]
+},
+"CD>VC": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CG>LI": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CG>SE": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CG>TH": {
+"type": "visa",
+"days": 60,
+"fee": "Varies",
+"note": "This passport is not on the 2026 exemption list, so you need a tourist visa before travel. Most nationalities can apply online. A tourist visa allows up to 60 days per entry, extendable by 30.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 30,
+"apply": {
+"label": "Apply at thaievisa.go.th",
+"url": "https://www.thaievisa.go.th"
+},
+"opts": []
+},
+"CG>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CH>HT": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CI>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CL>US": {
+"type": "eta",
+"days": null,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CM>SC": {
+"type": "eta",
+"days": 90,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CN>BW": {
+"type": "evisa",
+"days": 90,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CN>ID": {
+"type": "voa",
+"days": 30,
+"fee": "IDR 500K",
+"note": "The e-VOA and the airport visa on arrival are the same visa: 30 days, extendable once by 30 days in person. For up to 180 days, take the C1 tourist e-visa instead.",
+"stamp": [
+"On arrival",
+"30 days",
+"IDR 500K"
+],
+"ext": 30,
+"apply": {
+"label": "Get the e-VOA",
+"url": "https://evisa.imigrasi.go.id"
+},
+"opts": [
+[
+"voa",
+"e-VOA, bought online",
+30,
+"IDR 500,000",
+"https://evisa.imigrasi.go.id"
+],
+[
+"voa",
+"Visa on arrival at the counter",
+30,
+"IDR 500,000",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"CN>PH": {
+"type": "free",
+"days": 14,
+"fee": "Free",
+"note": "14 days visa-free since 16 January 2026, for tourism or business. Entry only through Manila (NAIA) or Mactan-Cebu airports. The stay cannot be extended or converted.",
+"stamp": [
+"Visa-free",
+"14 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CN>TH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "This passport gets 30 days under a separate two-way agreement, which the 2026 reform left unchanged. The stay is for tourism only.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 30,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"CN>VN": {
+"type": "evisa",
+"days": 90,
+"fee": "US$25",
+"note": "Every nationality can use the e-visa. US$25 covers a single entry and US$50 a multiple entry, each for up to 90 days. Use only evisa.gov.vn. Look-alike sites add their own service fees.",
+"stamp": [
+"e-Visa",
+"90 days",
+"US$25"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.vn",
+"url": "https://evisa.gov.vn"
+},
+"opts": []
+},
+"CO>TV": {
+"type": "voa",
+"days": null,
+"fee": "Varies",
+"note": "You get the visa when you land. Fees and the length of stay vary, so carry cash in a major currency and a ticket out.",
+"stamp": [
+"On arrival",
+"At border"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CR>KE": {
+"type": "eta",
+"days": null,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CU>KH": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Both routes give 30 days and cost the same. The e-visa saves the queue; the arrival visa works at more land borders.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 in cash",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$30",
+"https://www.evisa.gov.kh"
+]
+]
+},
+"CU>MG": {
+"type": "voa",
+"days": 90,
+"fee": "By stay",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"90 days",
+"By stay"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"Set by length of stay",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"€30 for up to 15 days (since 16 Feb 2026); more for 30, 60 or 90 days",
+"https://evisamada.gov.mg"
+]
+]
+},
+"CU>SG": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Visa-free for up to 30 days for tourism.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CU>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CV>BR": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CZ>MK": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"CZ>SA": {
+"type": "voa",
+"days": 90,
+"fee": "About SAR 400+",
+"note": "Up to 90 days in total per year. Applying online first saves time at the airport.",
+"stamp": [
+"On arrival",
+"90 days",
+"About SAR 400+"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"Paid by card at the immigration counter",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"About SAR 535, insurance included. One year, multiple entry",
+"https://visa.visitsaudi.com"
+]
+]
+},
+"DE>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"DE>ID": {
+"type": "voa",
+"days": 30,
+"fee": "IDR 500K",
+"note": "The e-VOA and the airport visa on arrival are the same visa: 30 days, extendable once by 30 days in person. For up to 180 days, take the C1 tourist e-visa instead.",
+"stamp": [
+"On arrival",
+"30 days",
+"IDR 500K"
+],
+"ext": 30,
+"apply": {
+"label": "Get the e-VOA",
+"url": "https://evisa.imigrasi.go.id"
+},
+"opts": [
+[
+"voa",
+"e-VOA, bought online",
+30,
+"IDR 500,000",
+"https://evisa.imigrasi.go.id"
+],
+[
+"voa",
+"Visa on arrival at the counter",
+30,
+"IDR 500,000",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"DE>JO": {
+"type": "voa",
+"days": 30,
+"fee": "JOD 40",
+"note": "If you plan to visit Petra, the Jordan Pass usually costs less than the visa plus the entry ticket.",
+"stamp": [
+"On arrival",
+"30 days",
+"JOD 40"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"JOD 40 (about US$56)",
+null
+],
+[
+"evisa",
+"Jordan Pass",
+30,
+"JOD 70 to 80, visa fee included",
+"https://www.jordanpass.jo"
+]
+]
+},
+"DE>PH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "30 days visa-free for tourism. Want longer? Extend at a Bureau of Immigration office before your 30 days run out.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 29,
+"apply": null,
+"opts": []
+},
+"DE>TH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Since 15 September 2026 most passports get 30 days, down from 60. The exemption covers tourism only. Working, even remotely for a company abroad, needs a proper visa.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 30,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"DE>VN": {
+"type": "free",
+"days": 45,
+"fee": "Free",
+"note": "Single entry, no visa needed. The exemption runs until 14 March 2028. For a longer stay, or a loop through Cambodia or Laos and back, the 90-day e-visa gives you more room.",
+"stamp": [
+"Visa-free",
+"45 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+45,
+"Free",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"US$25 single, US$50 multiple entry",
+"https://evisa.gov.vn"
+]
+]
+},
+"DM>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"DM>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"DO>RW": {
+"type": "voa",
+"days": 30,
+"fee": "US$50",
+"note": "The East Africa Tourist Visa (US$100) also covers Kenya and Uganda.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$50"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$50",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$50",
+"https://irembo.gov.rw"
+]
+]
+},
+"DO>WS": {
+"type": "voa",
+"days": null,
+"fee": "Varies",
+"note": "You get the visa when you land. Fees and the length of stay vary, so carry cash in a major currency and a ticket out.",
+"stamp": [
+"On arrival",
+"At border"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"DZ>FM": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Visa-free for up to 30 days for tourism.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"DZ>SZ": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"DZ>VE": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"EE>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"EE>PK": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"EG>SL": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"ER>GH": {
+"type": "voa",
+"days": null,
+"fee": "Varies",
+"note": "You get the visa when you land. Fees and the length of stay vary, so carry cash in a major currency and a ticket out.",
+"stamp": [
+"On arrival",
+"At border"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ER>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ES>FM": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ES>GR": {
+"type": "free",
+"days": null,
+"fee": "Free",
+"note": "No visa is needed, and no fixed day limit is listed, as with free-movement areas.",
+"stamp": [
+"Visa-free",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ES>IR": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "Tourist stays can be extended twice by 30 days. Check your government's travel advice first.",
+"stamp": [
+"On arrival",
+"30 days",
+"Varies"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa code",
+30,
+"Varies by nationality",
+"https://evisa.mfa.ir"
+]
+]
+},
+"ES>ZM": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ET>KH": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Both routes give 30 days and cost the same. The e-visa saves the queue; the arrival visa works at more land borders.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 in cash",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$30",
+"https://www.evisa.gov.kh"
+]
+]
+},
+"FJ>NI": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"FM>MH": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GA>MW": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"GA>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GB>ID": {
+"type": "voa",
+"days": 30,
+"fee": "IDR 500K",
+"note": "The e-VOA and the airport visa on arrival are the same visa: 30 days, extendable once by 30 days in person. For up to 180 days, take the C1 tourist e-visa instead.",
+"stamp": [
+"On arrival",
+"30 days",
+"IDR 500K"
+],
+"ext": 30,
+"apply": {
+"label": "Get the e-VOA",
+"url": "https://evisa.imigrasi.go.id"
+},
+"opts": [
+[
+"voa",
+"e-VOA, bought online",
+30,
+"IDR 500,000",
+"https://evisa.imigrasi.go.id"
+],
+[
+"voa",
+"Visa on arrival at the counter",
+30,
+"IDR 500,000",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"GB>PH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "30 days visa-free for tourism. Want longer? Extend at a Bureau of Immigration office before your 30 days run out.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 29,
+"apply": null,
+"opts": []
+},
+"GB>TH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Since 15 September 2026 most passports get 30 days, down from 60. The exemption covers tourism only. Working, even remotely for a company abroad, needs a proper visa.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 30,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"GB>TT": {
+"type": "free",
+"days": null,
+"fee": "Free",
+"note": "No visa is needed, and no fixed day limit is listed, as with free-movement areas.",
+"stamp": [
+"Visa-free",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GB>VN": {
+"type": "free",
+"days": 45,
+"fee": "Free",
+"note": "Single entry, no visa needed. The exemption runs until 14 March 2028. For a longer stay, or a loop through Cambodia or Laos and back, the 90-day e-visa gives you more room.",
+"stamp": [
+"Visa-free",
+"45 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+45,
+"Free",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"US$25 single, US$50 multiple entry",
+"https://evisa.gov.vn"
+]
+]
+},
+"GD>SA": {
+"type": "voa",
+"days": 90,
+"fee": "About SAR 400+",
+"note": "Up to 90 days in total per year. Applying online first saves time at the airport.",
+"stamp": [
+"On arrival",
+"90 days",
+"About SAR 400+"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"Paid by card at the immigration counter",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"About SAR 535, insurance included. One year, multiple entry",
+"https://visa.visitsaudi.com"
+]
+]
+},
+"GD>UY": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GE>BZ": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GH>EE": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GH>MN": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GH>MW": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"GM>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GN>SZ": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GN>ZW": {
+"type": "evisa",
+"days": 30,
+"fee": "From US$30",
+"note": "The KAZA UniVisa (US$50) covers Zimbabwe and Zambia for 30 days.",
+"stamp": [
+"e-Visa",
+"30 days",
+"From US$30"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.zw",
+"url": "https://www.evisa.gov.zw"
+},
+"opts": []
+},
+"GQ>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"GQ>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GR>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"GR>CU": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GR>LA": {
+"type": "voa",
+"days": 30,
+"fee": "US$30–42",
+"note": "Both give 30 days. Either can be extended once in Laos at an immigration office.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30–42"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"About US$30 to US$42 in cash, by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$35 to US$50, by nationality",
+"https://laoevisa.gov.la"
+]
+]
+},
+"GT>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"GT>SK": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GT>TZ": {
+"type": "voa",
+"days": 90,
+"fee": "US$50",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"90 days",
+"US$50"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"Same fee, in US dollar cash",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"US$50; US passports US$100 (1-year multiple entry)",
+"https://visa.immigration.go.tz"
+]
+]
+},
+"GW>AL": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"GY>TG": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"HK>HK": {
+"type": "home",
+"days": null,
+"fee": "None",
+"note": "This is your own passport's country, so no visa or entry permission applies.",
+"stamp": [
+"Citizen",
+"Home",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"HR>CO": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"HR>FR": {
+"type": "free",
+"days": null,
+"fee": "Free",
+"note": "No visa is needed, and no fixed day limit is listed, as with free-movement areas.",
+"stamp": [
+"Visa-free",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"HR>TN": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"HT>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"HU>EG": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Since March 2026 the e-visa is US$5 cheaper than the arrival visa.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 single, US$60 multiple entry (since 1 Mar 2026)",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$25 single, US$60 multiple entry",
+"https://visa2egypt.gov.eg"
+]
+]
+},
+"ID>IE": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ID>IN": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"IE>BA": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"IE>MC": {
+"type": "free",
+"days": null,
+"fee": "Free",
+"note": "No visa is needed, and no fixed day limit is listed, as with free-movement areas.",
+"stamp": [
+"Visa-free",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"IN>ID": {
+"type": "voa",
+"days": 30,
+"fee": "IDR 500K",
+"note": "The e-VOA and the airport visa on arrival are the same visa: 30 days, extendable once by 30 days in person. For up to 180 days, take the C1 tourist e-visa instead.",
+"stamp": [
+"On arrival",
+"30 days",
+"IDR 500K"
+],
+"ext": 30,
+"apply": {
+"label": "Get the e-VOA",
+"url": "https://evisa.imigrasi.go.id"
+},
+"opts": [
+[
+"voa",
+"e-VOA, bought online",
+30,
+"IDR 500,000",
+"https://evisa.imigrasi.go.id"
+],
+[
+"voa",
+"Visa on arrival at the counter",
+30,
+"IDR 500,000",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"IN>TH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Since 15 September 2026 most passports get 30 days, down from 60. The exemption covers tourism only. Working, even remotely for a company abroad, needs a proper visa.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 30,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"IN>VN": {
+"type": "evisa",
+"days": 90,
+"fee": "US$25",
+"note": "Every nationality can use the e-visa. US$25 covers a single entry and US$50 a multiple entry, each for up to 90 days. Use only evisa.gov.vn. Look-alike sites add their own service fees.",
+"stamp": [
+"e-Visa",
+"90 days",
+"US$25"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.vn",
+"url": "https://evisa.gov.vn"
+},
+"opts": []
+},
+"IN>WS": {
+"type": "voa",
+"days": 90,
+"fee": "Varies",
+"note": "You get the visa when you land. Fees and the length of stay vary, so carry cash in a major currency and a ticket out.",
+"stamp": [
+"On arrival",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"IQ>AU": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"IR>OM": {
+"type": "free",
+"days": 14,
+"fee": "Free",
+"note": "Staying longer than 14 days? Get the 30-day e-visa before you fly.",
+"stamp": [
+"Visa-free",
+"14 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+14,
+"Free",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"About OMR 20 for 30 days",
+"https://evisa.rop.gov.om"
+]
+]
+},
+"IR>TZ": {
+"type": "evisa",
+"days": 90,
+"fee": "US$50",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"90 days",
+"US$50"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at visa.immigration.go.tz",
+"url": "https://visa.immigration.go.tz"
+},
+"opts": []
+},
+"IR>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"IT>BT": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"IT>LK": {
+"type": "eta",
+"days": 30,
+"fee": "Free",
+"note": "The ETA fee is waived for 40 nationalities, including India, China, the UK and the US, but you still have to apply.",
+"stamp": [
+"eTA",
+"30 days",
+"Free or set fee"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at eta.gov.lk",
+"url": "https://eta.gov.lk/slvisa/"
+},
+"opts": [
+[
+"eta",
+"ETA",
+30,
+"Free since 25 May 2026; you still apply online",
+"https://eta.gov.lk/slvisa/"
+],
+[
+"voa",
+"Visa on arrival",
+30,
+"Usually more than the online ETA",
+null
+]
+]
+},
+"IT>TD": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"JM>SL": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"JO>AM": {
+"type": "voa",
+"days": null,
+"fee": "Varies",
+"note": "You get the visa when you land. Fees and the length of stay vary, so carry cash in a major currency and a ticket out.",
+"stamp": [
+"On arrival",
+"At border"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"JP>SA": {
+"type": "voa",
+"days": 90,
+"fee": "About SAR 400+",
+"note": "Up to 90 days in total per year. Applying online first saves time at the airport.",
+"stamp": [
+"On arrival",
+"90 days",
+"About SAR 400+"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"Paid by card at the immigration counter",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"About SAR 535, insurance included. One year, multiple entry",
+"https://visa.visitsaudi.com"
+]
+]
+},
+"KG>DO": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"KH>EG": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Since March 2026 the e-visa is US$5 cheaper than the arrival visa.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 single, US$60 multiple entry (since 1 Mar 2026)",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$25 single, US$60 multiple entry",
+"https://visa2egypt.gov.eg"
+]
+]
+},
+"KN>VN": {
+"type": "evisa",
+"days": 90,
+"fee": "US$25",
+"note": "Every nationality can use the e-visa. US$25 covers a single entry and US$50 a multiple entry, each for up to 90 days. Use only evisa.gov.vn. Look-alike sites add their own service fees.",
+"stamp": [
+"e-Visa",
+"90 days",
+"US$25"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.vn",
+"url": "https://evisa.gov.vn"
+},
+"opts": []
+},
+"KP>BW": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"KP>FM": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Visa-free for up to 30 days for tourism.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"KR>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"KR>EC": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"KR>GT": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"KR>LB": {
+"type": "voa",
+"days": null,
+"fee": "Varies",
+"note": "You get the visa when you land. Fees and the length of stay vary, so carry cash in a major currency and a ticket out.",
+"stamp": [
+"On arrival",
+"At border"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"KW>HK": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Visa-free for up to 30 days for tourism.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"KW>HR": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"KW>MW": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"KZ>ID": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "This passport gets 30 days visa-free. The stay cannot be extended or converted to another visa. Staying longer? Get the 60-day C1 tourist e-visa before you fly.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"KZ>PH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "30 days visa-free for tourism. Want longer? Extend at a Bureau of Immigration office before your 30 days run out.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 29,
+"apply": null,
+"opts": []
+},
+"KZ>TH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "This passport gets 30 days under a separate two-way agreement, which the 2026 reform left unchanged. The stay is for tourism only.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 30,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"KZ>VN": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Single entry, no visa needed. For a longer stay, or a loop through Cambodia or Laos and back, the 90-day e-visa gives you more room.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"US$25 single, US$50 multiple entry",
+"https://evisa.gov.vn"
+]
+]
+},
+"LA>SA": {
+"type": "evisa",
+"days": 90,
+"fee": "About SAR 535",
+"note": "Up to 90 days in total per year. Applying online first saves time at the airport.",
+"stamp": [
+"e-Visa",
+"90 days",
+"About SAR 535"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at visa.visitsaudi.com",
+"url": "https://visa.visitsaudi.com"
+},
+"opts": []
+},
+"LA>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"LC>IR": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "Tourist stays can be extended twice by 30 days. Check your government's travel advice first.",
+"stamp": [
+"On arrival",
+"30 days",
+"Varies"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa code",
+30,
+"Varies by nationality",
+"https://evisa.mfa.ir"
+]
+]
+},
+"LC>MM": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"LK>IN": {
+"type": "evisa",
+"days": 30,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"LK>LA": {
+"type": "voa",
+"days": 30,
+"fee": "US$30–42",
+"note": "Both give 30 days. Either can be extended once in Laos at an immigration office.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30–42"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"About US$30 to US$42 in cash, by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$35 to US$50, by nationality",
+"https://laoevisa.gov.la"
+]
+]
+},
+"LK>VU": {
+"type": "free",
+"days": 120,
+"fee": "Free",
+"note": "Visa-free for up to 120 days for tourism.",
+"stamp": [
+"Visa-free",
+"120 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"LR>GN": {
+"type": "free",
+"days": null,
+"fee": "Free",
+"note": "No visa is needed, and no fixed day limit is listed, as with free-movement areas.",
+"stamp": [
+"Visa-free",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"LR>ZA": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"LT>BO": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"LT>KG": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Visa-free for up to 30 days for tourism.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"LU>MZ": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"LV>ET": {
+"type": "voa",
+"days": 30,
+"fee": "Paid in USD",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days",
+"Paid in USD"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Paid in US dollars on arrival",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$62 for 30 days",
+"https://www.evisa.gov.et"
+]
+]
+},
+"LV>SL": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"LY>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"LY>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MD>ZA": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ME>LK": {
+"type": "eta",
+"days": 30,
+"fee": "Free or set fee",
+"note": "The ETA fee is waived for 40 nationalities, including India, China, the UK and the US, but you still have to apply.",
+"stamp": [
+"eTA",
+"30 days",
+"Free or set fee"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at eta.gov.lk",
+"url": "https://eta.gov.lk/slvisa/"
+},
+"opts": [
+[
+"eta",
+"ETA",
+30,
+"Free for 40 nationalities since 25 May 2026; others pay the fee shown online",
+"https://eta.gov.lk/slvisa/"
+],
+[
+"voa",
+"Visa on arrival",
+30,
+"Usually more than the online ETA",
+null
+]
+]
+},
+"ME>SO": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MG>ZA": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MH>IL": {
+"type": "eta",
+"days": null,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MK>TD": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ML>BF": {
+"type": "free",
+"days": null,
+"fee": "Free",
+"note": "No visa is needed, and no fixed day limit is listed, as with free-movement areas.",
+"stamp": [
+"Visa-free",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ML>IR": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "Tourist stays can be extended twice by 30 days. Check your government's travel advice first.",
+"stamp": [
+"On arrival",
+"30 days",
+"Varies"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa code",
+30,
+"Varies by nationality",
+"https://evisa.mfa.ir"
+]
+]
+},
+"ML>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MM>ID": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "ASEAN passports get 30 days visa-free. The stay cannot be extended or converted to another visa. Staying longer? Get the 60-day C1 tourist e-visa before you fly.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"MM>PH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "30 days visa-free for tourism. Want longer? Extend at a Bureau of Immigration office before your 30 days run out.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 29,
+"apply": null,
+"opts": []
+},
+"MM>TH": {
+"type": "free",
+"days": 14,
+"fee": "Free",
+"note": "14 days visa-free under a two-way agreement, for arrivals by air only.",
+"stamp": [
+"Visa-free",
+"14 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+14,
+"Free",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"MM>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MM>VN": {
+"type": "free",
+"days": 14,
+"fee": "Free",
+"note": "Single entry, no visa needed. For a longer stay, or a loop through Cambodia or Laos and back, the 90-day e-visa gives you more room.",
+"stamp": [
+"Visa-free",
+"14 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+14,
+"Free",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"US$25 single, US$50 multiple entry",
+"https://evisa.gov.vn"
+]
+]
+},
+"MN>GT": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MN>SG": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Visa-free for up to 30 days for tourism.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MO>UA": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MR>SS": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MR>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MT>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"MT>SL": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"MV>KH": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Both routes give 30 days and cost the same. The e-visa saves the queue; the arrival visa works at more land borders.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 in cash",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$30",
+"https://www.evisa.gov.kh"
+]
+]
+},
+"MV>KZ": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Visa-free for up to 30 days for tourism.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MV>MZ": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"MW>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MX>BG": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MX>CR": {
+"type": "free",
+"days": 180,
+"fee": "Free",
+"note": "Visa-free for up to 180 days for tourism.",
+"stamp": [
+"Visa-free",
+"180 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MZ>CY": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"MZ>SD": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"NA>AM": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"NA>NR": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"NE>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"NG>ID": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "This passport is not on the visa-free or visa-on-arrival lists, so you need a visa before you fly. Apply on the immigration e-visa portal; some nationalities need an Indonesian sponsor.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.imigrasi.go.id",
+"url": "https://evisa.imigrasi.go.id"
+},
+"opts": []
+},
+"NG>PH": {
+"type": "evisa",
+"days": 59,
+"fee": "US$65",
+"note": "This passport can get the 9(a) temporary visitor visa online: US$65 single (3 months); US$105 or US$145 multiple. You can still apply at a Philippine embassy instead.",
+"stamp": [
+"e-Visa",
+"59 days",
+"US$65"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.ph",
+"url": "https://evisa.gov.ph"
+},
+"opts": [
+[
+"evisa",
+"e-Visa, 9(a) visitor",
+59,
+"US$65 single (3 months); US$105 or US$145 multiple",
+"https://evisa.gov.ph"
+],
+[
+"visa",
+"Embassy visa",
+null,
+"Varies",
+null
+]
+]
+},
+"NG>TH": {
+"type": "visa",
+"days": 60,
+"fee": "Varies",
+"note": "This passport is not on the 2026 exemption list, so you need a tourist visa before travel. Most nationalities can apply online. A tourist visa allows up to 60 days per entry, extendable by 30.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 30,
+"apply": {
+"label": "Apply at thaievisa.go.th",
+"url": "https://www.thaievisa.go.th"
+},
+"opts": []
+},
+"NG>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"NG>VN": {
+"type": "evisa",
+"days": 90,
+"fee": "US$25",
+"note": "Every nationality can use the e-visa. US$25 covers a single entry and US$50 a multiple entry, each for up to 90 days. Use only evisa.gov.vn. Look-alike sites add their own service fees.",
+"stamp": [
+"e-Visa",
+"90 days",
+"US$25"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.vn",
+"url": "https://evisa.gov.vn"
+},
+"opts": []
+},
+"NL>SL": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"NO>KH": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Both routes give 30 days and cost the same. The e-visa saves the queue; the arrival visa works at more land borders.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 in cash",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$30",
+"https://www.evisa.gov.kh"
+]
+]
+},
+"NO>UA": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"OM>LB": {
+"type": "free",
+"days": 180,
+"fee": "Free",
+"note": "Visa-free for up to 180 days for tourism.",
+"stamp": [
+"Visa-free",
+"180 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"OM>MZ": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"PA>SA": {
+"type": "voa",
+"days": 90,
+"fee": "About SAR 400+",
+"note": "Up to 90 days in total per year. Applying online first saves time at the airport.",
+"stamp": [
+"On arrival",
+"90 days",
+"About SAR 400+"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"Paid by card at the immigration counter",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"About SAR 535, insurance included. One year, multiple entry",
+"https://visa.visitsaudi.com"
+]
+]
+},
+"PH>EC": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"PH>MG": {
+"type": "voa",
+"days": 90,
+"fee": "By stay",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"90 days",
+"By stay"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"Set by length of stay",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"€30 for up to 15 days (since 16 Feb 2026); more for 30, 60 or 90 days",
+"https://evisamada.gov.mg"
+]
+]
+},
+"PH>PY": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"PK>LK": {
+"type": "eta",
+"days": 30,
+"fee": "Free",
+"note": "The ETA fee is waived for 40 nationalities, including India, China, the UK and the US, but you still have to apply.",
+"stamp": [
+"eTA",
+"30 days",
+"Free or set fee"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at eta.gov.lk",
+"url": "https://eta.gov.lk/slvisa/"
+},
+"opts": [
+[
+"eta",
+"ETA",
+30,
+"Free since 25 May 2026; you still apply online",
+"https://eta.gov.lk/slvisa/"
+],
+[
+"voa",
+"Visa on arrival",
+30,
+"Usually more than the online ETA",
+null
+]
+]
+},
+"PS>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"PT>ET": {
+"type": "voa",
+"days": 30,
+"fee": "Paid in USD",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days",
+"Paid in USD"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Paid in US dollars on arrival",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$62 for 30 days",
+"https://www.evisa.gov.et"
+]
+]
+},
+"PT>GB": {
+"type": "eta",
+"days": null,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"PT>SK": {
+"type": "free",
+"days": null,
+"fee": "Free",
+"note": "No visa is needed, and no fixed day limit is listed, as with free-movement areas.",
+"stamp": [
+"Visa-free",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"PW>HU": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"PY>IR": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "Tourist stays can be extended twice by 30 days. Check your government's travel advice first.",
+"stamp": [
+"On arrival",
+"30 days",
+"Varies"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa code",
+30,
+"Varies by nationality",
+"https://evisa.mfa.ir"
+]
+]
+},
+"PY>KG": {
+"type": "evisa",
+"days": 60,
+"fee": "About US$82",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"60 days",
+"About US$82"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.e-gov.kg",
+"url": "https://evisa.e-gov.kg"
+},
+"opts": []
+},
+"QA>TD": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"RO>LV": {
+"type": "free",
+"days": null,
+"fee": "Free",
+"note": "No visa is needed, and no fixed day limit is listed, as with free-movement areas.",
+"stamp": [
+"Visa-free",
+"No visa"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"RS>BZ": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"RS>ID": {
+"type": "voa",
+"days": 30,
+"fee": "IDR 500K",
+"note": "The e-VOA and the airport visa on arrival are the same visa: 30 days, extendable once by 30 days in person. For up to 180 days, take the C1 tourist e-visa instead.",
+"stamp": [
+"On arrival",
+"30 days",
+"IDR 500K"
+],
+"ext": 30,
+"apply": {
+"label": "Get the e-VOA",
+"url": "https://evisa.imigrasi.go.id"
+},
+"opts": [
+[
+"voa",
+"e-VOA, bought online",
+30,
+"IDR 500,000",
+"https://evisa.imigrasi.go.id"
+],
+[
+"voa",
+"Visa on arrival at the counter",
+30,
+"IDR 500,000",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"RS>PH": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "This passport is not on the visa-free list, so you need a visa before travel. Apply at a Philippine embassy or consulate. If you live in an e-visa country (Austria, France, Greece, India, Indonesia, Japan, Kenya, the Netherlands, Nigeria, Singapore, South Korea or the UAE), you can apply online at evisa.gov.ph.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": {
+"label": "Philippine e-visa portal",
+"url": "https://evisa.gov.ph"
+},
+"opts": []
+},
+"RS>PT": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"RS>RW": {
+"type": "voa",
+"days": 30,
+"fee": "US$50",
+"note": "The East Africa Tourist Visa (US$100) also covers Kenya and Uganda.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$50"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$50",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$50",
+"https://irembo.gov.rw"
+]
+]
+},
+"RS>TH": {
+"type": "voa",
+"days": 15,
+"fee": "2,000 THB",
+"note": "Apply at the Visa on Arrival counter when you land and pay about 2,000 THB. Bring a passport photo, a ticket out within 15 days and your accommodation details. Staying longer? Get the 60-day tourist e-visa before you fly.",
+"stamp": [
+"On arrival",
+"15 days",
+"2,000 THB"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+15,
+"2,000 THB",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"RS>VN": {
+"type": "evisa",
+"days": 90,
+"fee": "US$25",
+"note": "Every nationality can use the e-visa. US$25 covers a single entry and US$50 a multiple entry, each for up to 90 days. Use only evisa.gov.vn. Look-alike sites add their own service fees.",
+"stamp": [
+"e-Visa",
+"90 days",
+"US$25"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.vn",
+"url": "https://evisa.gov.vn"
+},
+"opts": []
+},
+"RU>ID": {
+"type": "voa",
+"days": 30,
+"fee": "IDR 500K",
+"note": "The e-VOA and the airport visa on arrival are the same visa: 30 days, extendable once by 30 days in person. For up to 180 days, take the C1 tourist e-visa instead.",
+"stamp": [
+"On arrival",
+"30 days",
+"IDR 500K"
+],
+"ext": 30,
+"apply": {
+"label": "Get the e-VOA",
+"url": "https://evisa.imigrasi.go.id"
+},
+"opts": [
+[
+"voa",
+"e-VOA, bought online",
+30,
+"IDR 500,000",
+"https://evisa.imigrasi.go.id"
+],
+[
+"voa",
+"Visa on arrival at the counter",
+30,
+"IDR 500,000",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"RU>PH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "30 days visa-free for tourism. Want longer? Extend at a Bureau of Immigration office before your 30 days run out.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 29,
+"apply": null,
+"opts": []
+},
+"RU>TH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Russian passports get 30 days under a separate two-way agreement, which the 2026 reform left unchanged. The stay is for tourism only.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 30,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"RU>VN": {
+"type": "free",
+"days": 45,
+"fee": "Free",
+"note": "Single entry, no visa needed. The exemption runs until 14 March 2028. For a longer stay, or a loop through Cambodia or Laos and back, the 90-day e-visa gives you more room.",
+"stamp": [
+"Visa-free",
+"45 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+45,
+"Free",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"US$25 single, US$50 multiple entry",
+"https://evisa.gov.vn"
+]
+]
+},
+"RW>SI": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SA>GE": {
+"type": "free",
+"days": 360,
+"fee": "Free",
+"note": "Visa-free for up to 360 days for tourism.",
+"stamp": [
+"Visa-free",
+"360 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SB>IL": {
+"type": "eta",
+"days": null,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SB>KN": {
+"type": "eta",
+"days": null,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SC>EE": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SD>LA": {
+"type": "voa",
+"days": 30,
+"fee": "US$30–42",
+"note": "Both give 30 days. Either can be extended once in Laos at an immigration office.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30–42"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"About US$30 to US$42 in cash, by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$35 to US$50, by nationality",
+"https://laoevisa.gov.la"
+]
+]
+},
+"SD>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SE>KH": {
+"type": "voa",
+"days": 30,
+"fee": "US$30",
+"note": "Both routes give 30 days and cost the same. The e-visa saves the queue; the arrival visa works at more land borders.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$30"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$30 in cash",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$30",
+"https://www.evisa.gov.kh"
+]
+]
+},
+"SG>BH": {
+"type": "voa",
+"days": 14,
+"fee": "BHD 5",
+"note": "The arrival visa is cheaper; the e-visa saves time at the counter.",
+"stamp": [
+"On arrival",
+"14 days",
+"BHD 5"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+14,
+"BHD 5 for 14 days; BHD 12 for 30 days, multiple entry",
+null
+],
+[
+"evisa",
+"e-Visa",
+14,
+"BHD 10 for 14 days; BHD 17 for 30 days, multiple entry",
+"https://www.evisa.gov.bh"
+]
+]
+},
+"SG>MK": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SL>TM": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SL>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SM>RW": {
+"type": "voa",
+"days": 30,
+"fee": "US$50",
+"note": "The East Africa Tourist Visa (US$100) also covers Kenya and Uganda.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$50"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$50",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$50",
+"https://irembo.gov.rw"
+]
+]
+},
+"SM>SA": {
+"type": "voa",
+"days": 90,
+"fee": "About SAR 400+",
+"note": "Up to 90 days in total per year. Applying online first saves time at the airport.",
+"stamp": [
+"On arrival",
+"90 days",
+"About SAR 400+"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"Paid by card at the immigration counter",
+null
+],
+[
+"evisa",
+"e-Visa",
+90,
+"About SAR 535, insurance included. One year, multiple entry",
+"https://visa.visitsaudi.com"
+]
+]
+},
+"SN>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SO>EC": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SO>PL": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SO>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SS>LK": {
+"type": "eta",
+"days": 30,
+"fee": "Free or set fee",
+"note": "The ETA fee is waived for 40 nationalities, including India, China, the UK and the US, but you still have to apply.",
+"stamp": [
+"eTA",
+"30 days",
+"Free or set fee"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at eta.gov.lk",
+"url": "https://eta.gov.lk/slvisa/"
+},
+"opts": [
+[
+"eta",
+"ETA",
+30,
+"Free for 40 nationalities since 25 May 2026; others pay the fee shown online",
+"https://eta.gov.lk/slvisa/"
+],
+[
+"voa",
+"Visa on arrival",
+30,
+"Usually more than the online ETA",
+null
+]
+]
+},
+"SS>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ST>NA": {
+"type": "voa",
+"days": 90,
+"fee": "N$1,600",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"90 days",
+"N$1,600"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"N$1,600, plus a surcharge for in-person applications",
+null
+],
+[
+"evisa",
+"e-Visa on arrival (online)",
+90,
+"N$1,600; a rise to N$2,000 has been announced",
+"https://eservices.mhaiss.gov.na/visaonarrival"
+]
+]
+},
+"ST>PG": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ST>SR": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SY>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SZ>CD": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"SZ>MC": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TD>ER": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TD>LI": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TD>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TG>KI": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TG>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TJ>OM": {
+"type": "evisa",
+"days": 30,
+"fee": "About OMR 20",
+"note": "Staying longer than 14 days? Get the 30-day e-visa before you fly.",
+"stamp": [
+"e-Visa",
+"30 days",
+"About OMR 20"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.rop.gov.om",
+"url": "https://evisa.rop.gov.om"
+},
+"opts": []
+},
+"TJ>PE": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TM>CD": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TM>MZ": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"TM>NP": {
+"type": "voa",
+"days": 90,
+"fee": "US$30–125",
+"note": "Citizens of SAARC countries, except Afghanistan, get 30 days free.",
+"stamp": [
+"On arrival",
+"90 days",
+"US$30–125"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+90,
+"US$30 for 15 days, US$50 for 30, US$125 for 90",
+null
+],
+[
+"evisa",
+"Online visa form",
+90,
+"Same as on arrival, paid at the airport",
+"https://nepaliport.immigration.gov.np/online"
+]
+]
+},
+"TM>TW": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TN>BH": {
+"type": "voa",
+"days": 14,
+"fee": "BHD 5",
+"note": "The arrival visa is cheaper; the e-visa saves time at the counter.",
+"stamp": [
+"On arrival",
+"14 days",
+"BHD 5"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+14,
+"BHD 5 for 14 days; BHD 12 for 30 days, multiple entry",
+null
+],
+[
+"evisa",
+"e-Visa",
+14,
+"BHD 10 for 14 days; BHD 17 for 30 days, multiple entry",
+"https://www.evisa.gov.bh"
+]
+]
+},
+"TO>NL": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TO>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TT>AU": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TV>KN": {
+"type": "eta",
+"days": null,
+"fee": "Varies",
+"note": "You need an electronic travel authorisation before you fly. It is usually quick to get online.",
+"stamp": [
+"eTA",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TV>MM": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TV>MW": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"TV>MY": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Visa-free for up to 30 days for tourism.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TZ>CR": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TZ>LI": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TZ>TG": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"TZ>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"UA>BI": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"UA>RW": {
+"type": "voa",
+"days": 30,
+"fee": "US$50",
+"note": "The East Africa Tourist Visa (US$100) also covers Kenya and Uganda.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$50"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$50",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$50",
+"https://irembo.gov.rw"
+]
+]
+},
+"US>ID": {
+"type": "voa",
+"days": 30,
+"fee": "IDR 500K",
+"note": "The e-VOA and the airport visa on arrival are the same visa: 30 days, extendable once by 30 days in person. For up to 180 days, take the C1 tourist e-visa instead.",
+"stamp": [
+"On arrival",
+"30 days",
+"IDR 500K"
+],
+"ext": 30,
+"apply": {
+"label": "Get the e-VOA",
+"url": "https://evisa.imigrasi.go.id"
+},
+"opts": [
+[
+"voa",
+"e-VOA, bought online",
+30,
+"IDR 500,000",
+"https://evisa.imigrasi.go.id"
+],
+[
+"voa",
+"Visa on arrival at the counter",
+30,
+"IDR 500,000",
+null
+],
+[
+"evisa",
+"C1 tourist e-visa",
+60,
+"IDR 1,000,000 (about US$60)",
+"https://evisa.imigrasi.go.id"
+]
+]
+},
+"US>PH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "30 days visa-free for tourism. Want longer? Extend at a Bureau of Immigration office before your 30 days run out.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 29,
+"apply": null,
+"opts": []
+},
+"US>TH": {
+"type": "free",
+"days": 30,
+"fee": "Free",
+"note": "Since 15 September 2026 most passports get 30 days, down from 60. The exemption covers tourism only. Working, even remotely for a company abroad, needs a proper visa.",
+"stamp": [
+"Visa-free",
+"30 days"
+],
+"ext": 30,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+30,
+"Free",
+null
+],
+[
+"evisa",
+"Tourist visa (e-visa)",
+60,
+"Set by the embassy, e.g. SGD 50 single entry",
+"https://www.thaievisa.go.th"
+]
+]
+},
+"US>VN": {
+"type": "evisa",
+"days": 90,
+"fee": "US$25",
+"note": "Every nationality can use the e-visa. US$25 covers a single entry and US$50 a multiple entry, each for up to 90 days. Use only evisa.gov.vn. Look-alike sites add their own service fees.",
+"stamp": [
+"e-Visa",
+"90 days",
+"US$25"
+],
+"ext": 0,
+"apply": {
+"label": "Apply at evisa.gov.vn",
+"url": "https://evisa.gov.vn"
+},
+"opts": []
+},
+"UY>BF": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"UY>OM": {
+"type": "free",
+"days": 14,
+"fee": "Free",
+"note": "Staying longer than 14 days? Get the 30-day e-visa before you fly.",
+"stamp": [
+"Visa-free",
+"14 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"free",
+"Visa-free",
+14,
+"Free",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"About OMR 20 for 30 days",
+"https://evisa.rop.gov.om"
+]
+]
+},
+"UZ>MO": {
+"type": "voa",
+"days": null,
+"fee": "Varies",
+"note": "You get the visa when you land. Fees and the length of stay vary, so carry cash in a major currency and a ticket out.",
+"stamp": [
+"On arrival",
+"At border"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"UZ>SY": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"VA>AD": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"VA>CM": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"VA>PY": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"VC>GN": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"VC>KP": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"VE>DO": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"VE>MW": {
+"type": "voa",
+"days": 30,
+"fee": "Varies",
+"note": "There is more than one way in. Each option is listed with its fee and where to get it.",
+"stamp": [
+"On arrival",
+"30 days"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"Varies by nationality",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"Varies by nationality",
+null
+]
+]
+},
+"VE>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"VE>UY": {
+"type": "free",
+"days": 90,
+"fee": "Free",
+"note": "Visa-free for up to 90 days for tourism.",
+"stamp": [
+"Visa-free",
+"90 days"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"VN>BT": {
+"type": "evisa",
+"days": null,
+"fee": "Varies",
+"note": "Apply for an e-visa online before you fly. The fee and processing time depend on your nationality.",
+"stamp": [
+"e-Visa",
+"Apply online"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"VU>TW": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"XK>ER": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"XK>RW": {
+"type": "voa",
+"days": 30,
+"fee": "US$50",
+"note": "The East Africa Tourist Visa (US$100) also covers Kenya and Uganda.",
+"stamp": [
+"On arrival",
+"30 days",
+"US$50"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+30,
+"US$50",
+null
+],
+[
+"evisa",
+"e-Visa",
+30,
+"US$50",
+"https://irembo.gov.rw"
+]
+]
+},
+"YE>BH": {
+"type": "voa",
+"days": 14,
+"fee": "BHD 5",
+"note": "The arrival visa is cheaper; the e-visa saves time at the counter.",
+"stamp": [
+"On arrival",
+"14 days",
+"BHD 5"
+],
+"ext": 0,
+"apply": null,
+"opts": [
+[
+"voa",
+"Visa on arrival",
+14,
+"BHD 5 for 14 days; BHD 12 for 30 days, multiple entry",
+null
+],
+[
+"evisa",
+"e-Visa",
+14,
+"BHD 10 for 14 days; BHD 17 for 30 days, multiple entry",
+"https://www.evisa.gov.bh"
+]
+]
+},
+"YE>KM": {
+"type": "voa",
+"days": null,
+"fee": "Varies",
+"note": "You get the visa when you land. Fees and the length of stay vary, so carry cash in a major currency and a ticket out.",
+"stamp": [
+"On arrival",
+"At border"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"YE>MX": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"YE>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Under the US entry suspension in force since 1 January 2026, this passport cannot get a US visitor visa. Narrow exceptions exist, for example for existing visa holders and some dual nationals.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ZA>CA": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ZM>IS": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ZM>JO": {
+"type": "visa",
+"days": null,
+"fee": "Varies",
+"note": "You need a visa from an embassy or consulate before you travel. Allow several weeks.",
+"stamp": [
+"Visa required",
+"Apply first"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ZM>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+},
+"ZW>US": {
+"type": "none",
+"days": null,
+"fee": "—",
+"note": "Since 1 January 2026 the US has suspended B-1/B-2 visitor visas for this passport (and student and exchange visas). Visas issued before then stay valid.",
+"stamp": [
+"No entry",
+"Not admitted"
+],
+"ext": 0,
+"apply": null,
+"opts": []
+}
+}

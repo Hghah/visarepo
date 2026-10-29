@@ -1,0 +1,28 @@
+{
+  "name": "stamped",
+  "private": true,
+  "description": "Stamped: visa and entry rules for 199 passports. Next.js web, NestJS API, PostgreSQL.",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @stamped/core build && pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm --filter @stamped/core build && pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "test:e2e": "pnpm --filter @stamped/api test:e2e && pnpm --filter @stamped/web test:e2e",
+    "check": "pnpm typecheck && pnpm lint && pnpm test",
+    "db:up": "docker compose up -d db",
+    "db:prepare": "pnpm --filter @stamped/api db:prepare",
+    "docker:up": "docker compose up -d --build",
+    "docker:test": "docker compose --profile test run --rm --build test",
+    "docker:down": "docker compose down",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
