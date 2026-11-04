@@ -4,7 +4,7 @@
   "description": "Stamped: visa and entry rules for 199 passports. Next.js web, NestJS API, PostgreSQL.",
   "packageManager": "pnpm@10.28.0",
   "engines": {
-    "node": ">=22.12"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "pnpm --filter @stamped/core build && pnpm -r --parallel dev",

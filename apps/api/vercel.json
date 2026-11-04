@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nestjs",
+  "buildCommand": "pnpm --filter @stamped/core build && pnpm --filter @stamped/api build && pnpm --filter @stamped/api db:deploy",
+  "outputDirectory": "dist"
+}

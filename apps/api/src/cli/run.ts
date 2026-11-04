@@ -10,6 +10,10 @@ import { seed, type SeedMode } from '../database/seed.js';
  *   node dist/cli/run.js migrate            apply pending migrations
  *   node dist/cli/run.js seed [--force]     load the data set (only when this release's version is missing, unless --force)
  *   node dist/cli/run.js prepare            migrate, then seed according to SEED_MODE (always | if-stale | never)
+ *   node dist/cli/run.js deploy             `prepare` for Vercel builds: runs for production deployments only,
+ *                                           unless RUN_MIGRATIONS=true (e.g. previews on their own database branch)
+ *
+ * Migrations use DATABASE_URL_UNPOOLED when set (a direct connection, as provided by Neon), else DATABASE_URL.
  */
 function loadLocalEnv(): void {
   // Same files as the API in development; variables already set in the environment are kept.
@@ -19,9 +23,18 @@ function loadLocalEnv(): void {
 async function main(): Promise<void> {
   loadLocalEnv();
   const logger = new Logger('DB');
-  const [task = 'prepare', ...flags] = process.argv.slice(2);
+  const [requested = 'prepare', ...flags] = process.argv.slice(2);
+  let task = requested;
+  if (task === 'deploy') {
+    const vercelEnv = process.env.VERCEL_ENV;
+    if (vercelEnv && vercelEnv !== 'production' && process.env.RUN_MIGRATIONS !== 'true') {
+      logger.log(`Skipping database preparation for a ${vercelEnv} deployment (set RUN_MIGRATIONS=true to run it)`);
+      return;
+    }
+    task = 'prepare';
+  }
   const env = validateEnv(process.env);
-  const { db, pool } = createDatabase(env.DATABASE_URL, 2);
+  const { db, pool } = createDatabase(process.env.DATABASE_URL_UNPOOLED || env.DATABASE_URL, 2);
   try {
     if (task === 'migrate' || task === 'prepare') {
       await runMigrations(db);
@@ -41,7 +54,7 @@ async function main(): Promise<void> {
           : `Data set ${r.version} already loaded; nothing to do`,
       );
     }
-    if (!['migrate', 'seed', 'prepare'].includes(task)) throw new Error(`Unknown task "${task}". Use migrate, seed or prepare.`);
+    if (!['migrate', 'seed', 'prepare'].includes(task)) throw new Error(`Unknown task "${task}". Use migrate, seed, prepare or deploy.`);
   } finally {
     await pool.end();
   }

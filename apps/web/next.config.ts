@@ -35,7 +35,8 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  output: 'standalone',
+  // Self-contained server for Docker; Vercel packages the app its own way.
+  output: process.env.VERCEL ? undefined : 'standalone',
   // Trace files from the monorepo root so the standalone build includes the workspace packages.
   outputFileTracingRoot: path.join(import.meta.dirname, '../..'),
   poweredByHeader: false,

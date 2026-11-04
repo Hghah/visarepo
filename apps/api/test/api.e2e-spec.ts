@@ -104,4 +104,18 @@ describe('Stamped API (e2e)', () => {
     expect(res.headers['x-content-type-options']).toBe('nosniff');
     expect(res.headers['x-powered-by']).toBeUndefined();
   });
+
+  it('serves the OpenAPI document and the docs page', async () => {
+    const spec = await api().get('/api/docs/openapi.json').expect(200);
+    expect(spec.body.info.title).toBe('Stamped API');
+    expect(Object.keys(spec.body.paths)).toContain('/api/v1/entries/{passport}/{destination}');
+
+    const page = await api().get('/api/docs').expect(200);
+    expect(page.text).toContain('swagger-ui-bundle.js');
+    expect(page.headers['content-security-policy']).toContain('https://cdn.jsdelivr.net/npm/swagger-ui-dist@');
+    await api()
+      .get('/api/docs/init.js')
+      .expect(200)
+      .expect('content-type', /javascript/);
+  });
 });

@@ -152,6 +152,21 @@ All settings are environment variables. See `.env.example` for the full list.
 
 ## Deploying
 
+### Vercel (two projects + Neon PostgreSQL)
+
+The repo deploys to Vercel as two projects from the same Git repository. Each app's `vercel.json` sets its framework and build command.
+
+| Project       | Root Directory | Environment variables                                                                            |
+| ------------- | -------------- | ------------------------------------------------------------------------------------------------ |
+| `stamped-api` | `apps/api`     | `DATABASE_URL` and `DATABASE_URL_UNPOOLED` (added by the Neon integration), `INTERNAL_API_TOKEN` |
+| `stamped`     | `apps/web`     | `API_URL` = the API project's production URL, `INTERNAL_API_TOKEN` (same value)                  |
+
+- **Database.** Production builds of the API run `db:deploy`, which migrates the database and loads the data set when a release changes it. Preview builds skip this step unless `RUN_MIGRATIONS=true` is set.
+- **Regions.** Keep the database in the same region as the functions: Vercel's default is Washington, D.C. (`iad1`), so pick US East for Neon.
+- **Site URL.** `SITE_URL` defaults to the web project's production domain.
+
+### Docker images
+
 CI builds and pushes `ghcr.io/<owner>/<repo>-api` and `-web` images on every push to `main`. To set the public URL baked into the web image, add a repository variable `SITE_URL`.
 
 To run in production:

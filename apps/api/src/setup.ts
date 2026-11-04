@@ -5,6 +5,7 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import compression from 'compression';
 import helmet from 'helmet';
 import type { Env } from './config/env.js';
+import { mountApiDocs } from './docs.js';
 
 const LEVELS: LogLevel[] = ['error', 'warn', 'log', 'debug', 'verbose'];
 
@@ -42,7 +43,7 @@ export function configureApp(app: INestApplication): void {
         .setVersion('1.0')
         .build(),
     );
-    SwaggerModule.setup('api/docs', app, doc, { jsonDocumentUrl: 'api/docs/openapi.json' });
+    mountApiDocs(app, doc);
     Logger.log('API docs at /api/docs', 'Swagger');
   }
 }
