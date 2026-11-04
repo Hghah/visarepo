@@ -59,7 +59,7 @@ CMD ["node", "apps/web/server.js"]
 
 # ---------- test: everything that CI runs, with browsers ----------
 # Playwright's image (Ubuntu, glibc) matches @playwright/test 1.63.0, so its browsers are already installed.
-FROM mcr.microsoft.com/playwright:v1.63.0-noble AS test
+FROM mcr.microsoft.com/playwright:v1.64.1-noble AS test
 ARG PNPM_VERSION
 ENV PNPM_HOME=/pnpm PATH=/pnpm:$PATH CI=1 NEXT_TELEMETRY_DISABLED=1
 RUN npm install -g pnpm@${PNPM_VERSION} --no-fund --no-audit
